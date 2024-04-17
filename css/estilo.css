@@ -1,0 +1,222 @@
+header{
+  background: lightpink;
+  color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav ul{
+
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: lightpink;
+  list-style: none;
+  width: 100%;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  text-justify: center;
+  font-size: 25px;
+
+
+}
+
+
+nav li{
+  display: inline-flex;
+  margin: 0 30px;
+  justify-items: center;
+  justify-content: center;
+  text-justify: center;
+
+}
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding: 10 px;
+  width: 150 px;
+}
+
+nav a:hover{
+      background-color: white;
+  }
+
+img {
+  width: 80px;
+  height: 100px;
+
+}
+
+body{
+  font-family: "Century Gothic", serif;
+  background: pink;
+  height: 300px;
+}
+
+header h1{
+  font-family: "Century Gothic", serif;
+
+}
+
+header nav{
+font-family: "Century Gothic", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.carrito img{
+  background-color: ligthpink;
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+}
+
+main{
+  font-family: "Century Gothic", cursive;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding:0 20px ;
+}
+
+
+
+
+h1 img {
+  width: 130px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+
+footer{
+  background-color: white;
+  color: pink;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  flex-wrap: wrap;
+  font-family: "caveat",cursive;
+  font-size: 24px
+}
+.Links-informativos{
+width: 400x;
+
+}
+
+.Links-informativos ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Links-informativos li a{
+text-decoration: none;
+color: hotpink;
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+.redes-sociales{
+  width: 300px;
+}
+
+.redes-sociales img{
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+}
+
+.redes-sociales li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociales img:hover {
+  transform: scale(1.1);
+}
+
+.info-contactos {
+  width: 200px;
+  text-align: right;
+  font-size: 16px;
+
+}
+
+.intemcarrusel{
+height: 400px;
+position: relative;
+}
+
+.tarjetacarrusel{
+  height: 200%;
+
+}
+
+.flechascarrusel{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+#conteItemscarrusel{
+  height: 400px;
+  overflow: hidden;
+
+}
+
+#tarjetacarrusel-1{
+background-color: blueviolet;
+
+}
+
+#tarjetacarrusel-2{
+background-color: pink;
+}
+
+#tarjetacarrusel-3{
+background-color: yellow;
+}
+
+a{
+  text-decoration: none;
+}
+
+i{
+  color: white;
+}
+
+#contepuntos{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+#contepuntos > a {
+  font-size: 1.5em;
+  font-style: none;
+  color: black ;
+}
+
+img {
+  width: 1000%;
+  height: 1000px;
+}
+
+.inicio img{
+width: 1500px;
+height: 400px;
+}
